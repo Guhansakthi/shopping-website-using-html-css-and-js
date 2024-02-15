@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins' , sans-serif;
+}
+.navbar{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.navbar h1{
+    margin: 15px;
+    padding: 5px;
+}
+.navbar-links{
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+}
+.navbar-link a{
+    text-decoration: none;
+    color: rgb(1, 1, 17);
+}
+.navbar-link a:hover{
+    text-decoration: underline;
+}
+body img{
+    border-radius: 10px;
+}
+.container{
+    margin: 40px;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+.header-btn{
+    border: 10px solid black;
+    background-color: black;
+    color: beige;
+    border-radius: 2px;
+}
+.nat {
+    margin: 10px;
+    padding: 5px;
+}
+.new-arrival{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+    
+
+}
+
+.new-arrival-c{
+    margin:5px;
+    position: relative;
+    flex-basis: 20px;
+}
+.new-arrival button{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #1D232C;
+    position: absolute;
+    top: 50%;
+    left:18%;
+    border-radius: 5px;
+
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.newsin{
+    margin: 10px;
+    width: 70%;
+    border: 4px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.news button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: black;
+    border-radius: 5px;
+    color: azure;
+}
+.foot{
+    
+    background-color: rgb(28, 31, 31);
+    color: aliceblue;
+}
+.foot-1{
+    margin: 15px;
+    padding: 15px;
+}
+.newsin-1{
+    margin: 10px;
+    width: 90%;
+    border: 4px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+
+}
+.search-container {
+    margin: 20px;
+    
+    
+}
+.product-search{
+    width: 80%;
+    border:  solid black 4px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+
+}
+.product-search input:focus{
+    outline: none;
+}
+  
+
+.new-arrival-co{
+    margin:5px;
+    position: relative;
+    flex-basis: 20px;
+}
+.new-arrival-co p{
+    text-align: center;
+    font-weight: bold;
+}
+.products{
+    padding:20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.products-box{
+    text-align: center;
+    flex-basis: 20%;
+}
+.products-box img{
+    border-radius: 10px;
+}
+  
